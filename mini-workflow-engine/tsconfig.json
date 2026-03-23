@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "api/*", "config/*"]
+    }
+  },
+  "include": ["api/**/*", "config/**/*", "app.js"],
+  "exclude": ["node_modules", "client"]
+}
